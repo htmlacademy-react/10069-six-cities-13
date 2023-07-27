@@ -5,7 +5,7 @@ type MainProps = {
   placesOnPage: number;
 }
 
-function Main({ placesCount, placesOnPage }: MainProps): JSX.Element {
+function Main({placesCount, placesOnPage}: MainProps): JSX.Element {
   const placesArray = [...Array(placesCount).keys()];
 
   return (

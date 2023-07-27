@@ -19,7 +19,7 @@ function App({placesCount, placesOnPage}: AppProps): JSX.Element {
       <Routes>
         <Route
           path={AppRoute.Main}
-          element={<Main placesCount = { placesCount } placesOnPage = { placesOnPage } />}
+          element={<Main placesCount = {placesCount} placesOnPage = {placesOnPage} />}
         />
         <Route
           path={AppRoute.Favorites}
